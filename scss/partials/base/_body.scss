@@ -1,0 +1,7 @@
+@use "../utilities/variables";
+
+body {
+    background-color: variables.$colorFondo;
+    font-size: 20px;
+    color: variables.$colorFuentes;
+}

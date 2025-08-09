@@ -1,0 +1,101 @@
+<!-- /pages/dondeEncontrarnos.html -->
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dónde encontrarnos · Pastas Aranda</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary navegacion-principal">
+            <div class="container-fluid contenedor-navegacion">
+                <a class="navbar-brand logo-sitio" href="#"><img src="../images/logo.jpg" alt="Logo de Pastas Aranda"
+                        class="img-logo"></a>
+                <button class="navbar-toggler boton-menu" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"><span class="navbar-toggler-icon icono-menu"></span></button>
+                <div class="collapse navbar-collapse menu-colapsable" id="navbarNav">
+                    <ul class="navbar-nav lista-navegacion ms-auto">
+                        <li class="nav-item item-navegacion"><a class="nav-link enlace-navegacion"
+                                href="../index.html">Inicio</a></li>
+                        <li class="nav-item item-navegacion"><a class="nav-link enlace-navegacion"
+                                href="./sobreNosotros.html">Sobre Nosotros</a></li>
+                        <li class="nav-item item-navegacion"><a class="nav-link enlace-navegacion"
+                                href="./productos.html">Productos</a></li>
+                        <li class="nav-item item-navegacion"><a class="nav-link enlace-navegacion active" href="#">Dónde
+                                encontrarnos</a></li>
+                        <li class="nav-item item-navegacion"><a class="nav-link enlace-navegacion"
+                                href="./contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="seccion-ubicacion py-5">
+        <section class="container ubicacion-distribucion mb-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 text-center">
+                    <h1 class="titulo-ubicacion" data-aos="fade-up">Presencia en el NOA</h1>
+                    <p class="descripcion-ubicacion" data-aos="fade-up" data-aos-delay="100">
+                        Casa central en San Salvador de Jujuy y red de distribución en Jujuy, Salta, Tucumán, Santiago
+                        del Estero, Catamarca y La Rioja.
+                    </p>
+                    <img src="../images/mapa.jpg" alt="Mapa de provincias con presencia de Pastas Aranda"
+                        class="img-fluid imagen-mapa mt-3" data-aos="zoom-in">
+                </div>
+            </div>
+        </section>
+
+        <section class="container puntos-venta">
+            <div class="row g-3">
+                <div class="col-md-4" data-aos="fade-up">
+                    <div class="p-3 border rounded-3 h-100">
+                        <h2 class="h6 mb-2">Jujuy</h2>
+                        <p class="mb-1">San Salvador · Palpalá · Perico</p><small>Locales y autoservicios.</small>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="p-3 border rounded-3 h-100">
+                        <h2 class="h6 mb-2">Salta · Tucumán</h2>
+                        <p class="mb-1">Mayoristas y comercios de cercanía.</p><small>Consultar stock por zona.</small>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="p-3 border rounded-3 h-100">
+                        <h2 class="h6 mb-2">Sgo. del Estero · Catamarca · La Rioja</h2>
+                        <p class="mb-1">Distribución programada.</p><small>Pedidos por volumen.</small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-4" data-aos="fade-up" data-aos-delay="250">
+                <a href="./contacto.html" class="btn btn-primary boton-accion">Quiero ser distribuidor</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="pie-pagina bg-light mt-5 py-4">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-auto text-center texto-footer">
+                    <p class="mb-0">Pastas Aranda – Sabor jujeño desde 1960</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>AOS.init({ duration: 600, once: true, easing: 'ease-out' });</script>
+</body>
+
+</html>

@@ -1,0 +1,85 @@
+@use "../utilities/variables";
+@use "../utilities/mixins";
+
+
+.titulo-principal {
+    @include mixins.titulos(40px, variables.$colorFuenteTitulo);
+
+    .descripcion-principal {
+        margin-bottom: 30px;
+    }
+}
+
+.eslogan {
+    font-style: italic;
+    font-size: 20px;
+    color: variables.$colorFuentes;
+}
+
+.eslogan-principal {
+    @extend .eslogan;
+}
+
+h1.titulo-contacto {
+    @include mixins.titulos(35px, variables.$colorFuenteTitulo);
+
+    .descripcion-contacto {
+        font-size: 20px;
+        color: variables.$colorFuentes;
+        text-align: center;
+    }
+}
+
+.titulo-datos-contacto {
+    @include mixins.titulos(20px, variables.$colorFuenteTitulo);
+
+    .lista-contacto {
+        list-style: none;
+        padding-left: 0;
+        font-size: 18px;
+        color: #5c2a1d;
+        line-height: 1.8;
+    }
+}
+
+.formulario-contacto {
+    .campo-contacto {
+        border: 1px solid variables.$colorHover;
+        border-radius: 5px;
+        padding: 10px;
+    }
+}
+
+.descripciones {
+    font-size: 20px;
+    color: variables.$colorFuentes;
+    line-height: 1.6;
+}
+
+.titulo-ubicacion {
+    @include mixins.titulos(30px, variables.$colorFuenteTitulo);
+
+    .descripcion-ubicacion {
+        @extend .descripciones;
+    }
+}
+
+.titulo-productos {
+    @include mixins.titulos(30px, variables.$colorFuenteTitulo);
+
+    .descripcion-productos {
+        @extend .descripciones;
+    }
+}
+
+.titulo-historia {
+    @include mixins.titulos(30px, variables.$colorFuenteTitulo);
+
+    .descripcion-historia {
+        @extend .descripciones;
+    }
+}
+
+.eslogan-historia {
+    @extend .eslogan;
+}

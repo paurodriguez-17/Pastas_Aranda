@@ -1,0 +1,139 @@
+<!-- /pages/productos.html -->
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos · Pastas Aranda</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary navegacion-principal">
+            <div class="container-fluid contenedor-navegacion">
+                <a class="navbar-brand logo-sitio" href="#"><img src="../images/logo.jpg" alt="Logo de Pastas Aranda"
+                        class="img-logo"></a>
+                <button class="navbar-toggler boton-menu" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"><span class="navbar-toggler-icon icono-menu"></span></button>
+                <div class="collapse navbar-collapse menu-colapsable" id="navbarNav">
+                    <ul class="navbar-nav lista-navegacion ms-auto">
+                        <li class="nav-item item-navegacion"><a class="nav-link enlace-navegacion"
+                                href="../index.html">Inicio</a></li>
+                        <li class="nav-item item-navegacion"><a class="nav-link enlace-navegacion"
+                                href="./sobreNosotros.html">Sobre Nosotros</a></li>
+                        <li class="nav-item item-navegacion"><a class="nav-link enlace-navegacion active"
+                                href="#">Productos</a></li>
+                        <li class="nav-item item-navegacion"><a class="nav-link enlace-navegacion"
+                                href="./dondeEncontrarnos.html">Dónde encontrarnos</a></li>
+                        <li class="nav-item item-navegacion"><a class="nav-link enlace-navegacion"
+                                href="./contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="seccion-productos py-5">
+        <section class="container presentacion-productos mb-4 text-center">
+            <h1 class="titulo-productos" data-aos="fade-up">Nuestros Productos Artesanales</h1>
+            <p class="descripcion-productos" data-aos="fade-up" data-aos-delay="100">
+                Elaboración diaria con materia prima seleccionada. Ideales para hogar y gastronomía.
+            </p>
+        </section>
+
+        <section class="container lista-productos mb-4">
+            <div class="row g-3">
+                <div class="col-6 col-lg-3" data-aos="fade-up">
+                    <article class="tarjeta-producto border rounded-3 h-100 p-3 text-center">
+                        <img src="../images/tapas.jpg" class="img-fluid mb-2 imagen-producto"
+                            alt="Tapas para empanadas">
+                        <h3 class="h6 titulo-producto mb-1">Tapas</h3>
+                        <p class="texto-producto mb-0">Tradicionales, caseras y verdes.</p>
+                    </article>
+                </div>
+                <div class="col-6 col-lg-3" data-aos="fade-up" data-aos-delay="50">
+                    <article class="tarjeta-producto border rounded-3 h-100 p-3 text-center">
+                        <img src="../images/fideos.jpg" class="img-fluid mb-2 imagen-producto" alt="Fideos al huevo">
+                        <h3 class="h6 titulo-producto mb-1">Fideos</h3>
+                        <p class="texto-producto mb-0">Al huevo y con espinaca.</p>
+                    </article>
+                </div>
+                <div class="col-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+                    <article class="tarjeta-producto border rounded-3 h-100 p-3 text-center">
+                        <img src="../images/ravioles.jpg" class="img-fluid mb-2 imagen-producto" alt="Ravioles">
+                        <h3 class="h6 titulo-producto mb-1">Ravioles</h3>
+                        <p class="texto-producto mb-0">Verdura y pollo · Ricota y jamón.</p>
+                    </article>
+                </div>
+                <div class="col-6 col-lg-3" data-aos="fade-up" data-aos-delay="150">
+                    <article class="tarjeta-producto border rounded-3 h-100 p-3 text-center">
+                        <img src="../images/ñoquis.jpg" class="img-fluid mb-2 imagen-producto" alt="Ñoquis">
+                        <h3 class="h6 titulo-producto mb-1">Ñoquis</h3>
+                        <p class="texto-producto mb-0">Textura suave, cocción pareja.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="container info-producto-rapida">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="p-3 p-md-4 border rounded-3" data-aos="fade-up">
+                        <h2 class="h5 titulo-seccion mb-3">Presentaciones y conservación</h2>
+                        <ul class="lista-detalle mb-0">
+                            <li>Presentaciones: familiares y gastronómicas.</li>
+                            <li>Conservación: heladera 0–5°C (48 h) o freezer (hasta 30 días).</li>
+                            <li>Pedidos especiales para eventos y restaurantes.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container carrusel-productos mt-5">
+            <div id="carruselPastas" class="carousel slide" data-bs-ride="carousel" data-aos="fade-up">
+                <div class="carousel-inner">
+                    <div class="carousel-item active"><img src="../images/fideos.jpg"
+                            class="d-block w-100 imagen-carrusel" alt="Fideos caseros"></div>
+                    <div class="carousel-item"><img src="../images/ñoquis.jpg" class="d-block w-100 imagen-carrusel"
+                            alt="Ñoquis artesanales"></div>
+                    <div class="carousel-item"><img src="../images/ravioles.jpg" class="d-block w-100 imagen-carrusel"
+                            alt="Ravioles rellenos"></div>
+                    <div class="carousel-item"><img src="../images/tapas.jpg" class="d-block w-100 imagen-carrusel"
+                            alt="Tapas para empanadas"></div>
+                    <div class="carousel-item"><img src="../images/empanadas.jpg" class="d-block w-100 imagen-carrusel"
+                            alt="Empanadas listas"></div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carruselPastas"
+                    data-bs-slide="prev"><span class="carousel-control-prev-icon"></span><span
+                        class="visually-hidden">Anterior</span></button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carruselPastas"
+                    data-bs-slide="next"><span class="carousel-control-next-icon"></span><span
+                        class="visually-hidden">Siguiente</span></button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="pie-pagina bg-light mt-5 py-4">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-auto text-center texto-footer">
+                    <p class="mb-0">Pastas Aranda – Sabor jujeño desde 1960</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>AOS.init({ duration: 600, once: true, easing: 'ease-out' });</script>
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+@use "../utilities/variables";
+
+.cards {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease,
+        box-shadow 0.2s ease;
+    padding: 1.5rem;
+}
+
+.tarjeta-producto {
+    @extend .cards;
+
+    &:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    }
+}
+
+.info-producto-rapida {
+    @extend .cards;
+    background-color: variables.$colorFondoNav;
+    margin-top: 15px;
+}
+
+.mision-vision {
+    @extend .cards;
+    background-color: variables.$colorFondoNav;
+    margin-top: 15px;
+}
+
+.razones-cortas {
+    @extend .cards;
+    background-color: variables.$colorFondoNav;
+    margin-top: 15px;
+}
+
+.puntos-venta {
+    @extend .cards;
+    background-color: variables.$colorFondoNav;
+    margin-top: 15px;
+}

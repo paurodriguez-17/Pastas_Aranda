@@ -1,0 +1,11 @@
+@use "../utilities/variables";
+
+.pie-pagina {
+    border-top: 2px solid #d2b48c;
+    background-color: variables.$colorFondoNav !important;
+    .texto-footer {
+        font-weight: 500;
+        font-size: 16px;
+        font-style: italic;
+    }
+}

@@ -1,0 +1,35 @@
+@use "../utilities/variables";
+
+.imagenes {
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.imagen-pastas {
+    @extend .imagenes;
+    width: 100%;
+    height: auto;
+    max-width: 700px;
+}
+
+.imagen-mapa {
+    @extend .imagenes;
+    max-width: 70%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.imagen-carrusel {
+    @extend .imagenes;
+    max-width: 40%;
+    height: auto;
+}
+
+.imagen-historia {
+    @extend .imagenes;
+    max-width: 70%;
+    height: auto;
+}

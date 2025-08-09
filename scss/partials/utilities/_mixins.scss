@@ -1,0 +1,7 @@
+@mixin titulos ($font, $color) {
+    font-size: $font;
+    color: $color;
+    text-decoration: underline;
+    margin-bottom: 20px;
+    text-align: center;
+}

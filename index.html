@@ -1,0 +1,109 @@
+<!-- /index.html -->
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pastas Aranda · Sabor casero desde 1960</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary navegacion-principal">
+            <div class="container-fluid contenedor-navegacion">
+                <a class="navbar-brand logo-sitio" href="#">
+                    <img src="./images/logo.jpg" alt="Logo de Pastas Aranda" class="img-logo">
+                </a>
+                <button class="navbar-toggler boton-menu" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Alternar navegación">
+                    <span class="navbar-toggler-icon icono-menu"></span>
+                </button>
+                <div class="collapse navbar-collapse menu-colapsable" id="navbarNav">
+                    <ul class="navbar-nav lista-navegacion ms-auto">
+                        <li class="nav-item item-navegacion">
+                            <a class="nav-link enlace-navegacion" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item item-navegacion">
+                            <a class="nav-link enlace-navegacion"href="./pages/sobreNosotros.html">Sobre Nosotros</a></li>
+                        <li class="nav-item item-navegacion">
+                            <a class="nav-link enlace-navegacion"href="./pages/productos.html">Productos</a></li>
+                        <li class="nav-item item-navegacion">
+                            <a class="nav-link enlace-navegacion"href="./pages/dondeEncontrarnos.html">Dónde encontrarnos</a></li>
+                        <li class="nav-item item-navegacion">
+                            <a class="nav-link enlace-navegacion"href="./pages/contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="seccion-principal py-5">
+        <section class="container texto-bienvenida">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 text-center">
+                    <h1 class="titulo-principal" data-aos="fade-up">El verdadero Sabor Casero</h1>
+                    <p class="descripcion-principal" data-aos="fade-up" data-aos-delay="100">
+                        Fábrica jujeña con más de 60 años de tradición en pastas frescas artesanales para familias,
+                        comercios y restaurantes del NOA.
+                    </p>
+                    <img src="./images/pastas.jpg" alt="Plato de pastas frescas" class="img-fluid imagen-pastas my-4"
+                        data-aos="zoom-in">
+                    <p class="eslogan-principal" data-aos="fade-up" data-aos-delay="150">Tradición jujeña en cada
+                        bocado.</p>
+                    <div class="grupo-botones mt-3" data-aos="fade-up" data-aos-delay="200">
+                        <a href="./pages/productos.html" class="btn btn-primary boton-accion">Ver productos</a>
+                        <a href="./pages/dondeEncontrarnos.html"
+                            class="btn btn-outline-primary boton-accion-secundaria">Puntos de venta</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container razones-cortas py-4">
+            <div class="row g-3">
+                <div class="col-md-4" data-aos="fade-up">
+                    <div class="p-3 border rounded-3 h-100">
+                        <h3 class="h6 mb-2">Calidad artesanal</h3>
+                        <p class="mb-0">Harinas seleccionadas y elaboración diaria.</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="p-3 border rounded-3 h-100">
+                        <h3 class="h6 mb-2">Variedad real</h3>
+                        <p class="mb-0">Tapas, fideos, ñoquis, ravioles y pascualinas.</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="p-3 border rounded-3 h-100">
+                        <h3 class="h6 mb-2">Atención mayorista</h3>
+                        <p class="mb-0">Formato gastronómico y entregas programadas.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="pie-pagina bg-light mt-5 py-4">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-auto text-center texto-footer">
+                    <p class="mb-0">Pastas Aranda – Sabor jujeño desde 1960</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>AOS.init({ duration: 600, once: true, easing: 'ease-out' });</script>
+</body>
+
+</html>

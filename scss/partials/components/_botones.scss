@@ -1,0 +1,43 @@
+@use "../utilities/variables";
+
+.botones {
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.boton-enviar {
+    @extend .botones;
+    background-color: variables.$colorFuentes;
+
+    &:hover {
+        background-color: variables.$colorFuenteTitulo;
+    }
+}
+
+.boton-whatsapp {
+    @extend .botones;
+    background-color: rgb(143, 198, 143);
+
+    &:hover {
+        background-color: rgb(177, 239, 169);
+    }
+}
+
+.boton-accion {
+    @extend .botones;
+    background-color: variables.$colorFuentes;
+
+    &:hover {
+        background-color: variables.$colorFuenteTitulo;
+    }
+}
+
+.boton-accion-secundaria {
+    @extend .botones;
+    background-color: variables.$colorFuentes;
+    color: #ffff;
+    &:hover {
+        background-color: variables.$colorFuenteTitulo;
+    }
+}
